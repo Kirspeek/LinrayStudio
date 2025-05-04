@@ -1,0 +1,13 @@
+.dashboard {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.dashboard-content {
+  padding: 2rem;
+}
+
+.dashboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

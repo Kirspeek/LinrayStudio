@@ -1,0 +1,132 @@
+.header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  padding: 0;
+  border-bottom: 4px solid #8d5be9;
+  font-family: "Nunito", "Quicksand", "Arial Rounded MT Bold", Arial, sans-serif;
+}
+
+.header-socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem 2rem 0.25rem 2rem;
+  font-size: 1.3rem;
+  gap: 1.2rem;
+}
+
+.header-socials-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+.social-icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  transition: transform 0.15s;
+}
+.social-icon-link:hover {
+  transform: scale(1.12);
+}
+.social-icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
+
+.header-nav-row {
+  border-bottom: 3px solid #8d5be9;
+  background: #fff;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5rem;
+  padding: 1rem 0 0.7rem 0;
+}
+
+.nav-item {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #666;
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+.nav-item:hover {
+  color: #8d5be9;
+}
+
+.cat-icon {
+  font-size: 1.3rem;
+  margin-left: 0.1rem;
+}
+
+.header-logo-row {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.2rem 0 0.7rem 0;
+  background: #fff;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 2.7rem;
+  font-weight: 900;
+  color: #8d5be9;
+  letter-spacing: 0.03em;
+  margin-bottom: 0.2rem;
+}
+.logo-text {
+  font-family: "Nunito", "Quicksand", "Arial Rounded MT Bold", Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: 900;
+  color: #8d5be9;
+}
+.logo-cat {
+  font-size: 2.2rem;
+  margin-left: 0.3rem;
+}
+.header-author {
+  font-size: 1.2rem;
+  color: #888;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+.cat-icon-img {
+  width: 24px;
+  height: 24px;
+  margin-left: 0.2rem;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.logo-cat-img {
+  width: 32px;
+  height: 32px;
+  margin-left: 0.4rem;
+  vertical-align: middle;
+}
+
+.nav-separator {
+  margin: 0 1.1rem;
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  display: inline-block;
+}
