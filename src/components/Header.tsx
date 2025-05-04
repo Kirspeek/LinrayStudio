@@ -6,7 +6,6 @@ import { useTheme } from "@mui/material/styles";
 import { Link } from "react-router-dom";
 
 const catIcon = "/assets/header/icons/cat_icon.png";
-const headerMain = "/assets/header/icons/header_main.png";
 
 const socialLinks = [
   {
@@ -161,15 +160,6 @@ const Header: React.FC = () => {
             </React.Fragment>
           ))}
         </Box>
-      </Box>
-      {/* Banner with overlayed logo and author */}
-      <Box sx={{ width: "100%", mt: 0 }}>
-        <Box
-          component="img"
-          src={headerMain}
-          alt="Header Banner"
-          sx={{ width: "100%", height: "auto", display: "block" }}
-        />
       </Box>
     </Box>
   );
