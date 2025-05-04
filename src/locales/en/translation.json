@@ -8,5 +8,31 @@
     "about": "About Me"
   },
   "logo": "Linray Studio",
-  "author": "Alina Yakunina"
+  "author": "Alina Yakunina",
+  "pages": {
+    "illustrations": {
+      "title": "Illustrations",
+      "description": "Explore a collection of unique illustrations."
+    },
+    "books": {
+      "title": "Books",
+      "description": "Discover books featuring our artwork and stories."
+    },
+    "games": {
+      "title": "Games",
+      "description": "Dive into creative games designed by our studio."
+    },
+    "lettering": {
+      "title": "Lettering",
+      "description": "See beautiful hand lettering and typography projects."
+    },
+    "characters": {
+      "title": "Characters",
+      "description": "Meet the characters brought to life by our art."
+    },
+    "about": {
+      "title": "About Me",
+      "description": "Learn more about the author and Linray Studio."
+    }
+  }
 }

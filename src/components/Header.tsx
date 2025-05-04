@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import { useTheme } from "@mui/material/styles";
+import { Link } from "react-router-dom";
 
 const catIcon = "/assets/header/icons/cat_icon.png";
 const headerMain = "/assets/header/icons/header_main.png";
@@ -136,7 +137,12 @@ const Header: React.FC = () => {
                   "&:hover": { color: theme.palette.primary.main },
                 }}
               >
-                {t(`nav.${item}`)}
+                <Link
+                  to={`/${item}`}
+                  style={{ textDecoration: "none", color: "inherit" }}
+                >
+                  {t(`nav.${item}`)}
+                </Link>
               </Typography>
               {idx < navItems.length - 1 && (
                 <Box
