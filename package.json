@@ -21,6 +21,7 @@
     "react-i18next": "^14.0.5",
     "react-router-dom": "^6.22.1",
     "react-scripts": "5.0.1",
+    "typescript": "4.9.5",
     "web-vitals": "^3.5.2"
   },
   "scripts": {
@@ -49,13 +50,10 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "typescript": "4.9.5"
-  },
   "engines": {
     "node": ">=16.0.0"
   },
-  "resolutions": {
+  "overrides": {
     "typescript": "4.9.5"
   }
 }
